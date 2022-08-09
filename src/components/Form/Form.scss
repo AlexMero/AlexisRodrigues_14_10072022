@@ -1,0 +1,48 @@
+form {
+  @include flexColumnCenter;
+  width: 50%;
+  max-width: 400px;
+
+  fieldset {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    @include flexColumnCenter;
+  }
+
+  label,
+  input,
+  button {
+    margin-top: 0.5rem;
+    text-align: center;
+  }
+
+  input {
+    border: 1px solid black;
+    padding: 0.2rem 0 0.2rem 0;
+    border-radius: 5px;
+    width: 100%;
+  }
+
+  .select {
+    margin-top: 0.5rem;
+    width: 100%;
+    border-radius: 5px;
+
+    &__control {
+      border-radius: 5px;
+      border: 1px solid black;
+    }
+  }
+
+  button {
+    border: 1px solid black;
+    margin-top: 1rem;
+    padding: 0.2rem;
+    border-radius: 5px;
+    width: 30%;
+  }
+}

@@ -1,0 +1,44 @@
+main {
+  background-color: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+
+button,
+.button {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.pageLink {
+  text-decoration: none;
+  color: black;
+  margin: 0 0 10px 0;
+
+  &:hover {
+    text-decoration: underline;
+    background-color: lightskyblue;
+  }
+}
+
+button:hover {
+  background-color: lightgreen;
+}
+
+@mixin flexColumnCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
