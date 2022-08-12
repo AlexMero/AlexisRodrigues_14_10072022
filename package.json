@@ -8,7 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "ag-grid-community": "^28.0.2",
     "ag-grid-react": "^28.0.0",
-    "alexis-modal-p14-oc": "^1.0.4",
+    "alexis-modal-p14-oc": "^1.0.5",
     "date-fns": "^2.29.0",
     "prop-types": "^15.8.1",
     "react": "^18.1.0",

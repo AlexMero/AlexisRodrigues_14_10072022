@@ -15,8 +15,6 @@ export default function Form() {
   const employees = useSelector((state) => state.employees)
   //@ts-ignore
   const added = useSelector((state) => state.addedSuccessfuly)
-  // console.log('employees', employees)
-  // console.log('added', added)
   const nextId = employees.length + 1
 
   const [birthCalendarIsOpen, setBirthCalendarIsOpen] = useState(false)
@@ -168,7 +166,7 @@ export default function Form() {
 
       {added ? (
         <div onClick={(evt) => handleModalClick(evt)}>
-          <ModalComponent />
+          <ModalComponent content={'Employee created !'} />
         </div>
       ) : null}
     </form>
